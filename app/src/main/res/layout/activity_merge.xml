@@ -4,10 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/content_profile_after_merged" />
-
-</LinearLayout>
-
     <!--  Entire layout looks like-->
     <!--<LinearLayout>-->
     <!--    <LinearLayout>-->
@@ -15,3 +11,15 @@
     <!--         <TextView />-->
     <!--    </LinearLayout>-->
     <!--</LinearLayout>-->
+
+<!--    <include layout="@layout/content_profile" />-->
+
+    <!--  Entire layout looks like-->
+    <!--<LinearLayout>-->
+    <!--     <TextView />-->
+    <!--     <TextView />-->
+    <!--</LinearLayout>-->
+    <include layout="@layout/content_profile_after_merged" />
+
+</LinearLayout>
+

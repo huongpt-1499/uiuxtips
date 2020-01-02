@@ -17,5 +17,34 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
+        btnRipple.setOnClickListener {
+            startActivity(Intent(this, RippleActivity::class.java))
+        }
+
+        btnThemedView.setOnClickListener {
+            startActivity(Intent(this, ThemedViewActivity::class.java))
+        }
+
+        btnElevation.setOnClickListener {
+            startActivity(Intent(this, ShadowActivity::class.java))
+        }
+
+        btnInclude.setOnClickListener {
+            startActivity(Intent(this, IncludeActivity::class.java))
+        }
+
+        btnMerge.setOnClickListener {
+            startActivity(Intent(this, MergeActivity::class.java))
+        }
+
+        btnViewStub.setOnClickListener {
+            startActivity(Intent(this, ViewStubActivity::class.java))
+        }
+
+        btnTextSize.setOnClickListener {
+            startActivity(Intent(this, TextSizeActivity::class.java))
+        }
+
+
     }
 }
